@@ -89,7 +89,6 @@ footer {
 figure {
   float: right;
   width: 300px;
-  font-style: italic;
   border-top-style: solid;
   border-bottom-style: solid;
   border-top-width: 3px;
@@ -97,7 +96,34 @@ figure {
   padding: .4em .2em;
 }
 
+figcaption {
+    font-style: italic;
+}
+
 blockquote {
   float: left;
   font-size: 1.5rem;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-width: 3px;
+  border-bottom-width: 3px;
+  border-color: black;
+  width: 300px;
+  color: #666;
+  text-align: right;
+}
+
+main > p:first-child::first-letter {
+  font-size: 5rem;
+  font-style: normal;
+  background-color: #666;
+  color: white;
+  float: left;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-width: 3px;
+  border-bottom-width: 3px;
+  border-color: black;
+  padding: .4em .2em;
+  margin: .125em;
 }
