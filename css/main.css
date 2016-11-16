@@ -94,10 +94,11 @@ figure {
   border-top-width: 3px;
   border-bottom-width: 3px;
   padding: .4em .2em;
+  margin-right: -9em;
 }
 
 figcaption {
-    font-style: italic;
+  font-style: italic;
 }
 
 blockquote {
@@ -111,6 +112,8 @@ blockquote {
   width: 300px;
   color: #666;
   text-align: right;
+  margin-left: -9em;
+  padding: 6px 0;
 }
 
 main > p:first-child::first-letter {
@@ -125,5 +128,5 @@ main > p:first-child::first-letter {
   border-bottom-width: 3px;
   border-color: black;
   padding: .4em .2em;
-  margin: .125em;
+  margin-left: -1em;
 }
